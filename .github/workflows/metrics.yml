@@ -17,3 +17,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
           plugin_lines: yes
+          filename: metrics.plugin.introduction.svg
+          user: github
+          plugin_introduction: yes
